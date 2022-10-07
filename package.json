@@ -22,16 +22,20 @@
     "react-scripts": "^3.4.1",
     "redux": "^4.0.0",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^0.88.2",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "start-heroku": "npm run build && node app.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "snyk": true
 }
