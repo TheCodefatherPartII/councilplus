@@ -19,7 +19,7 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-script-loader-hoc": "^1.1.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
